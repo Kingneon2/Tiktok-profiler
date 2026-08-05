@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShadowProfile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 ShadowProfile</h1>
+    <p>Paste a TikTok username and repost links for a psychological profile.</p>
+    <input type="text" id="usernameInput" placeholder="@username (optional)" />
+    <textarea id="linksInput" placeholder="Paste TikTok links, one per line"></textarea>
+    <select id="timezoneSelect">
+      <option value="Africa/Lagos">Nigeria (WAT)</option>
+      <option value="America/New_York">USA (EST)</option>
+      <option value="Europe/London">UK (GMT)</option>
+    </select>
+    <button id="analyzeBtn">Analyze</button>
+    <div id="output" class="output-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
